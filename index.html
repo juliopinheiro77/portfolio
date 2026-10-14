@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Júlio Pinheiro | Desenvolvedor Delphi & PHP</title>
     <meta name="description" content="Desenvolvedor com 8+ anos de experiência em Delphi, PHP e sistemas ERP. Especialista em emissão fiscal, integrações e banco de dados.">
+    <link rel="canonical" href="https://juliopinheiro77.github.io/">
+    <!-- Open Graph: aparece quando o link é compartilhado no LinkedIn/WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Júlio Pinheiro | Desenvolvedor Delphi & PHP">
+    <meta property="og:description" content="ERP multi-loja, PDV e emissão fiscal (NF-e/NFC-e) em Delphi. Sistemas web em PHP.">
+    <meta property="og:url" content="https://juliopinheiro77.github.io/">
+    <!-- TODO: criar imagem 1200x630 e descomentar -->
+    <!-- <meta property="og:image" content="https://juliopinheiro77.github.io/assets/og-image.png"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,13 +27,15 @@
     <!-- Navbar Glassmorphism -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#" class="logo">
+            <a href="#home" class="logo">
                 <span class="logo-icon">⚡</span>
                 <span class="logo-text">Júlio<span class="accent">.dev</span></span>
             </a>
             <ul class="nav-links">
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#cases">Cases</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#contato" class="btn-nav">Contato</a></li>
             </ul>
@@ -52,9 +62,9 @@
                     Desenvolvedor <span class="accent">Delphi</span> & <span class="accent">PHP</span>
                 </h2>
                 <p class="hero-description">
-                    Com mais de 8 anos de experiência em TI, desenvolvo sistemas ERP completos, 
-                    integrações fiscais (NF-e/NFC-e), PDV e soluções web. Transformo problemas 
-                    complexos em software de qualidade.
+                    Escrevo o software que faz lojas venderem e emitirem nota: ERP multi-loja em Delphi,
+                    PDV, NF-e/NFC-e, Pix e TEF. Gosto da parte difícil, quando a SEFAZ rejeita
+                    e a fila do caixa para.
                 </p>
                 <div class="hero-buttons">
                     <a href="#projetos" class="btn btn-primary">
@@ -63,22 +73,22 @@
                             <path d="M5 12h14M12 5l7 7-7 7"/>
                         </svg>
                     </a>
-                    <a href="#contato" class="btn btn-secondary">
-                        Entrar em Contato
+                    <a href="#demo" class="btn btn-secondary">
+                        ▶ Testar a demo
                     </a>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
                         <span class="stat-number">8+</span>
-                        <span class="stat-label">Anos de Experiência</span>
+                        <span class="stat-label">Anos em TI</span>
                     </div>
                     <div class="stat">
                         <span class="stat-number">4+</span>
-                        <span class="stat-label">Anos com Delphi</span>
+                        <span class="stat-label">Anos com Delphi e PHP</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">100%</span>
-                        <span class="stat-label">Foco em Resultados</span>
+                        <span class="stat-number">NF-e</span>
+                        <span class="stat-label">e NFC-e em produção</span>
                     </div>
                 </div>
             </div>
@@ -98,7 +108,7 @@
         <span class="code-string">"Firebird"</span>,
         <span class="code-string">"PostgreSQL"</span>
     ];
-    
+
     <span class="code-keyword">public function</span> <span class="code-func">resolver</span>(<span class="code-var">$problema</span>) {
         <span class="code-keyword">return</span> <span class="code-var">$this</span>-><span class="code-func">codar</span>(<span class="code-var">$problema</span>);
     }
@@ -118,31 +128,30 @@
             <div class="sobre-grid">
                 <div class="sobre-text glass">
                     <p>
-                        Sou desenvolvedor de software com mais de <strong>8 anos de experiência acumulada em TI</strong>, 
-                        sendo 4+ anos dedicado ao desenvolvimento em <strong>Delphi</strong> e <strong>PHP</strong>.
+                        Comecei como <strong>monitor de informática</strong> e professor de montagem e manutenção.
+                        Depois vieram o suporte técnico e a infraestrutura, e foi ali que entendi o lado de quem
+                        usa o sistema: o caixa travado, a nota que não sai, o cliente esperando no balcão.
                     </p>
                     <p>
-                        Minha trajetória começou como monitor de informática e professor de montagem e manutenção, 
-                        passou pelo suporte técnico e infraestrutura, até chegar ao desenvolvimento de 
-                        <strong>sistemas ERP completos</strong>.
+                        Hoje, com mais de <strong>8 anos em TI</strong> e 4+ dedicados a <strong>Delphi</strong> e
+                        <strong>PHP</strong>, desenvolvo sistemas ERP multi-loja: retaguarda, PDV,
+                        <strong>emissão fiscal (NF-e/NFC-e)</strong> e integrações com Pix, boletos e TEF,
+                        usando ACBr e FireDAC.
                     </p>
                     <p>
-                        Atualmente, atuo com sistemas ERP multi-loja, incluindo retaguarda, PDV, 
-                        <strong>emissão fiscal (NF-e/NFC-e)</strong> e integrações com Pix, boletos e TEF, 
-                        utilizando ACBr e FireDAC. Tenho também experiência em PHP, JavaScript, HTML5, 
-                        CSS3, Bootstrap e administração de bancos de dados Firebird, PostgreSQL e MySQL.
+                        Também trabalho com web (PHP, JavaScript, Bootstrap) e cuido de bancos Firebird,
+                        PostgreSQL e MySQL, da modelagem até aquela consulta de relatório que precisa rodar em segundos.
                     </p>
                     <p>
-                        Sou uma pessoa comunicativa, colaborativa e que valoriza o trabalho em equipe, 
-                        sem abrir mão da autonomia e da proatividade. Estou sempre em busca de 
-                        <strong>aprendizado contínuo</strong> e novos desafios.
+                        Gosto de trabalhar em equipe e de ter autonomia para resolver.
+                        <span class="ph">[Uma frase sua, do jeito que você falaria numa entrevista. Ex.: o problema mais estranho que você já resolveu.]</span>
                     </p>
                 </div>
                 <div class="sobre-cards">
                     <div class="info-card glass">
                         <div class="info-icon">🎯</div>
                         <h3>Foco</h3>
-                        <p>Sistemas ERP, Fiscal e Integrações</p>
+                        <p>ERP, emissão fiscal e integrações</p>
                     </div>
                     <div class="info-card glass">
                         <div class="info-icon">💻</div>
@@ -150,9 +159,9 @@
                         <p>Delphi, PHP, Firebird, PostgreSQL</p>
                     </div>
                     <div class="info-card glass">
-                        <div class="info-icon">🚀</div>
-                        <h3>Objetivo</h3>
-                        <p>Resolver problemas complexos com tecnologia</p>
+                        <div class="info-icon">🧾</div>
+                        <h3>No dia a dia</h3>
+                        <p>Retaguarda, PDV, NF-e/NFC-e, Pix, boletos e TEF</p>
                     </div>
                     <div class="info-card glass">
                         <div class="info-icon">🌍</div>
@@ -170,11 +179,16 @@
             <div class="section-header">
                 <span class="section-tag">Portfólio</span>
                 <h2 class="section-title">Projetos em Destaque</h2>
-                <p class="section-subtitle">Alguns dos projetos que desenvolvi e que mostram minha experiência</p>
+                <p class="section-subtitle">Sistemas que estão (ou estiveram) rodando em empresas de verdade</p>
             </div>
             <div class="projects-grid">
                 <!-- Projeto 1 -->
                 <article class="project-card glass">
+                    <!-- Troque este bloco por: <img class="project-img" src="assets/erp-demo.gif" alt="Emissão de NF-e no ERP"> -->
+                    <div class="project-media">
+                        <span>GIF de 10s: emitir NF-e e abrir o DANFE</span>
+                        <code>assets/erp-demo.gif</code>
+                    </div>
                     <div class="project-header">
                         <div class="project-icon">🏢</div>
                         <div class="project-tags">
@@ -185,18 +199,28 @@
                     </div>
                     <h3 class="project-title">ERP Multi-loja com Emissão Fiscal</h3>
                     <p class="project-description">
-                        Sistema ERP completo para rede de lojas, incluindo retaguarda, PDV e 
-                        emissor fiscal. Integração com NF-e, NFC-e, Pix, boletos e TEF.
+                        Usado no caixa e no escritório de uma rede de lojas: o PDV vende, a retaguarda
+                        controla estoque e financeiro, e o emissor transmite NF-e e NFC-e para a SEFAZ.
+                        Recebe por Pix, boleto e TEF.
                     </p>
                     <ul class="project-features">
                         <li>✅ Retaguarda, PDV e emissor fiscal</li>
                         <li>✅ Integração com ACBr e FireDAC</li>
                         <li>✅ Otimização de consultas SQL</li>
                     </ul>
+                    <div class="project-links">
+                        <a href="#case-erp" class="link-primary">Ler o case →</a>
+                        <a href="#demo">Testar a demo</a>
+                    </div>
                 </article>
 
                 <!-- Projeto 2 -->
                 <article class="project-card glass">
+                    <!-- Troque este bloco por: <img class="project-img" src="assets/funeraria-demo.gif" alt="Painel do sistema da funerária"> -->
+                    <div class="project-media">
+                        <span>GIF de 10s: cadastro de cliente no painel</span>
+                        <code>assets/funeraria-demo.gif</code>
+                    </div>
                     <div class="project-header">
                         <div class="project-icon">🌐</div>
                         <div class="project-tags">
@@ -207,14 +231,19 @@
                     </div>
                     <h3 class="project-title">Sistema Web para Funerária</h3>
                     <p class="project-description">
-                        Site institucional e sistema de gestão para funerária, com painel 
-                        administrativo, cadastro de clientes e integração com processos internos.
+                        Site institucional e sistema de gestão usado pela equipe da funerária no dia a dia:
+                        painel administrativo, cadastro de clientes e os processos internos num lugar só.
                     </p>
                     <ul class="project-features">
                         <li>✅ PHP puro com AdminLTE</li>
                         <li>✅ Interface responsiva</li>
                         <li>✅ Banco de dados MySQL</li>
                     </ul>
+                    <div class="project-links">
+                        <a href="#case-funeraria" class="link-primary">Ler o case →</a>
+                        <!-- Se subir uma demo com dados falsos, ative o link abaixo -->
+                        <!-- <a href="https://demo-funeraria.SEUDOMINIO" target="_blank" rel="noopener">Ver demo</a> -->
+                    </div>
                 </article>
 
                 <!-- Projeto 3 -->
@@ -229,8 +258,8 @@
                     </div>
                     <h3 class="project-title">Integrações via API REST</h3>
                     <p class="project-description">
-                        Desenvolvimento de integrações entre sistemas ERP e plataformas externas, 
-                        garantindo consistência de dados e comunicação em tempo real.
+                        Integrações entre o ERP e <span class="ph">[quais plataformas? e-commerce, marketplace, banco]</span>,
+                        para que pedido, estoque e preço fiquem iguais nos dois lados sem ninguém redigitar.
                     </p>
                     <ul class="project-features">
                         <li>✅ API REST com JSON</li>
@@ -251,14 +280,125 @@
                     </div>
                     <h3 class="project-title">Otimização de Consultas SQL</h3>
                     <p class="project-description">
-                        Reestruturação de consultas complexas em Firebird e PostgreSQL, 
-                        reduzindo o tempo de resposta de relatórios críticos.
+                        Reestruturação de consultas complexas em Firebird e PostgreSQL.
+                        Um relatório crítico caiu de <span class="ph">[X min]</span> para <span class="ph">[Y s]</span>.
                     </p>
                     <ul class="project-features">
                         <li>✅ Análise de planos de execução</li>
                         <li>✅ Criação de índices estratégicos</li>
                         <li>✅ Redução de tempo de processamento</li>
                     </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section (Projeto "vivo") -->
+    <section class="section" id="demo">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Demo ao vivo</span>
+                <h2 class="section-title">Validador de Chave NF-e</h2>
+                <p class="section-subtitle">
+                    A mesma regra que o ERP aplica antes de transmitir para a SEFAZ: separa os 44 dígitos
+                    da chave de acesso e confere o dígito verificador (módulo 11). Teste aqui.
+                </p>
+            </div>
+            <div class="demo-card glass">
+                <div class="code-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="code-title">validador-chave-nfe.js</span>
+                </div>
+                <div class="demo-body">
+                    <label for="chave-nfe" class="demo-label">Chave de acesso (44 dígitos)</label>
+                    <input id="chave-nfe" class="demo-input" inputmode="numeric" autocomplete="off" spellcheck="false" maxlength="54">
+                    <div class="demo-actions">
+                        <button type="button" class="btn btn-primary btn-sm" id="btn-gerar">Gerar chave de exemplo</button>
+                        <button type="button" class="btn btn-secondary btn-sm" id="btn-errar">Errar um dígito</button>
+                    </div>
+                    <div class="demo-verdict" id="demo-verdict" aria-live="polite"></div>
+                    <div class="demo-fields" id="demo-fields"></div>
+                    <p class="demo-note">Chave gerada com CNPJ fictício, só para demonstração.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cases Section -->
+    <section class="section" id="cases">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Case studies</span>
+                <h2 class="section-title">Problema, solução e resultado</h2>
+                <p class="section-subtitle">Como eu penso um sistema, contado em 3 minutos de leitura</p>
+            </div>
+            <div class="cases-grid">
+                <!-- Case ERP -->
+                <article class="case-card glass" id="case-erp">
+                    <h3 class="case-title">ERP multi-loja: nota fiscal sem parar o caixa</h3>
+                    <div class="case-meta">
+                        <div><small>Papel</small><span class="ph">[seu papel]</span></div>
+                        <div><small>Stack</small>Delphi · Firebird · ACBr · FireDAC</div>
+                        <div><small>Período</small><span class="ph">[ano – ano]</span></div>
+                    </div>
+                    <div class="case-step problem">
+                        <span class="case-step-label">Problema</span>
+                        <p><span class="ph">[O que travava antes. Ex.: uma rejeição da SEFAZ específica, NFC-e que não saía quando a internet caía, conferência de caixa manual.]</span></p>
+                    </div>
+                    <div class="case-step solution">
+                        <span class="case-step-label">Solução</span>
+                        <ul>
+                            <li>PDV, retaguarda e emissor fiscal integrados no mesmo banco.</li>
+                            <li>Emissão de NF-e/NFC-e com ACBr; Pix, boletos e TEF no fechamento da venda.</li>
+                            <li>Consultas SQL revisadas para os relatórios que as lojas mais usam.</li>
+                            <li><strong>Decisão:</strong> <span class="ph">[escolhi X em vez de Y porque…]</span></li>
+                        </ul>
+                    </div>
+                    <div class="case-step result">
+                        <span class="case-step-label">Resultado</span>
+                        <div class="case-metrics">
+                            <div><strong class="ph">[N]</strong><span>lojas usando</span></div>
+                            <div><strong class="ph">[N]</strong><span>notas por mês</span></div>
+                            <div><strong class="ph">[X%]</strong><span>menos rejeições</span></div>
+                        </div>
+                    </div>
+                    <div class="case-step lesson">
+                        <span class="case-step-label">O que eu faria diferente</span>
+                        <p><span class="ph">[Uma decisão que você revisaria hoje.]</span></p>
+                    </div>
+                </article>
+
+                <!-- Case Funerária -->
+                <article class="case-card glass" id="case-funeraria">
+                    <h3 class="case-title">Funerária: o atendimento organizado num painel</h3>
+                    <div class="case-meta">
+                        <div><small>Papel</small>Desenvolvedor <span class="ph">[único? em equipe?]</span></div>
+                        <div><small>Stack</small>PHP · AdminLTE · MySQL</div>
+                        <div><small>Período</small><span class="ph">[ano]</span></div>
+                    </div>
+                    <div class="case-step problem">
+                        <span class="case-step-label">Problema</span>
+                        <p><span class="ph">[Como a funerária controlava clientes e atendimentos antes (papel? planilha?) e o que dava errado por causa disso.]</span></p>
+                    </div>
+                    <div class="case-step solution">
+                        <span class="case-step-label">Solução</span>
+                        <ul>
+                            <li>Painel administrativo em PHP com AdminLTE.</li>
+                            <li>Cadastro de clientes ligado aos processos internos.</li>
+                            <li>Interface responsiva, usada também pelo celular.</li>
+                            <li>Site institucional no mesmo projeto.</li>
+                        </ul>
+                    </div>
+                    <div class="case-step result">
+                        <span class="case-step-label">Resultado</span>
+                        <p><span class="ph">[O que mudou no dia a dia da equipe. Se tiver, uma frase do cliente, com permissão.]</span></p>
+                    </div>
+                    <div class="case-step lesson">
+                        <span class="case-step-label">O que eu faria diferente</span>
+                        <p><span class="ph">[Ex.: usaria um framework? separaria o site do sistema?]</span></p>
+                    </div>
                 </article>
             </div>
         </div>
@@ -359,25 +499,25 @@
                             <span class="contact-value">juliocesar_crf_@hotmail.com</span>
                         </div>
                     </a>
-                    <a href="https://wa.me/5524992087581" target="_blank" class="contact-item">
+                    <a href="https://wa.me/5524992087581" target="_blank" rel="noopener" class="contact-item">
                         <div class="contact-icon">📱</div>
                         <div class="contact-info">
                             <span class="contact-label">WhatsApp</span>
                             <span class="contact-value">(24) 99208-7581</span>
                         </div>
                     </a>
-                    <a href="https://linkedin.com/in/julio-pinheiro-5a521a137" target="_blank" class="contact-item">
+                    <a href="https://linkedin.com/in/julio-pinheiro-5a521a137" target="_blank" rel="noopener" class="contact-item">
                         <div class="contact-icon">💼</div>
                         <div class="contact-info">
                             <span class="contact-label">LinkedIn</span>
                             <span class="contact-value">/in/julio-pinheiro</span>
                         </div>
                     </a>
-                    <a href="https://github.com/juliopinheiro" target="_blank" class="contact-item">
+                    <a href="https://github.com/juliopinheiro77" target="_blank" rel="noopener" class="contact-item">
                         <div class="contact-icon">🐙</div>
                         <div class="contact-info">
                             <span class="contact-label">GitHub</span>
-                            <span class="contact-value">/juliopinheiro</span>
+                            <span class="contact-value">/juliopinheiro77</span>
                         </div>
                     </a>
                 </div>
